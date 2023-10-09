@@ -7,17 +7,26 @@ body {
     height: 100vw;
     }
 
-.header, .footer {
+.header {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    padding: 0px 64px;
+}
+
+.header-one, .header-two, .footer {
+    display: flex;
     background-color: #1F2937;
     color: white;
 }
 
-.header-one {
+/*First section*/
+
+.header-one, p {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 #logo {
@@ -25,6 +34,7 @@ body {
     max-width: fit-content;
     font-weight: 900;
     font-size: 24px;
+    color: white;
 }
 
 .right-links {
@@ -34,13 +44,54 @@ margin-right: 0px;
 gap: 16px;
 }
 
-/*Header two*/
-
 a, a:link, a:visited {
-text-decoration: none;
-color:white;
+    text-decoration: none;
+    color: #E5E7EB;
+    }
+    
+ul {
+        list-style: none;
+    }
+
+.header-two {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
 }
 
-ul {
-    list-style: none;
+.headerText {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
 }
+
+h1 {
+display: flex;
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 48px;
+font-weight: bolder;
+color: #F9FAF8;
+}
+
+button {
+    display: flex;
+    max-width: fit-content;
+    background-color: #3882F6;
+    color: white;
+    box-sizing: border-box; /*Unsure*/
+    box-shadow: pink; /*Y not working*/
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 3px 16px;
+}
+
+#mainImage {
+display: flex;
+flex-shrink: 1;
+max-width: fit-content;
+background-color: grey;
+}
+
+/*Second section*/
+
