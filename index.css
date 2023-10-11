@@ -1,29 +1,28 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px 0px;
-    height: 100vw;
+    height: 100%;
     }
 
 .header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 0px 64px;
 }
 
 .header-one, .header-two, .footer {
     display: flex;
     background-color: #1F2937;
     color: white;
+    padding: 0px 64px;
 }
 
-/*First section*/
+/*Header*/
 
-.header-one, p {
+.header-one {
     display: flex;
+    position: sticky;
+    top: 0px;
     justify-content: space-between;
     font-size: 18px;
     color: #E5E7EB;
@@ -34,7 +33,7 @@ body {
     max-width: fit-content;
     font-weight: 900;
     font-size: 24px;
-    color: white;
+    color: #F9FAF8;
 }
 
 .right-links {
@@ -56,22 +55,25 @@ ul {
 .header-two {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 64px;
+    gap: 8px;
+    margin: 32px 0px 64px 0px;    
 }
+
+h1 {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    }
 
 .headerText {
     display: flex;
     flex-direction: column;
     flex-shrink: 2;
-}
-
-h1 {
-display: flex;
-margin-top: 0px;
-margin-bottom: 0px;
-font-size: 48px;
-font-weight: bolder;
-color: #F9FAF8;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 button {
@@ -93,5 +95,77 @@ max-width: fit-content;
 background-color: grey;
 }
 
-/*Second section*/
+/*First section*/
 
+.content-one {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 64px;
+    margin: 32px 0px 64px 0px;    
+}
+
+.information {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+h2 {
+    display: flex;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.boxes-box {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    gap: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.boxes-box img {
+    display: flex;
+    box-sizing: border-box;
+    border: solid 2.5px #3882F6;
+    flex-shrink: 0;
+    border-radius: 5px;
+    padding: 50px;
+    max-width: 20px;
+}
+
+.text {
+    display: flex;
+}
+
+/*2nd section*/
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 64px 64px;   
+}
+
+/*3rd section*/
+
+.content-three {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 64px;
+    margin: 64px 0px 64px 0px;    
+}
