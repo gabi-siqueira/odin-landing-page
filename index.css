@@ -127,6 +127,7 @@ h2 {
     text-align: center;
     flex-wrap: wrap;
     padding-left: 0px;
+    margin-top: 24px;
     gap: 10px;
 }
 
@@ -159,6 +160,23 @@ h2 {
     flex-direction: column;
     background-color: #E5E7EB;
     padding: 64px 64px;   
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-author {
+display: flex;
+justify-content: flex-end;
+font-weight: bolder;
 }
 
 /*3rd section*/
