@@ -102,7 +102,6 @@ background-color: grey;
     align-content: center;
     justify-content: center;
     text-align: center;
-    padding: 0px 64px;
     margin: 32px 0px 64px 0px;    
 }
 
@@ -187,3 +186,38 @@ font-weight: bolder;
     padding: 0px 64px;
     margin: 64px 0px 64px 0px;    
 }
+
+.banner-box {
+border: solid 1px greenyellow;
+display: flex;
+justify-content: center;
+gap: 48px;
+background-color: #3882F6;
+color: #E5E7EB;
+padding: 6px 24px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    flex-shrink: 2;
+    margin-top: 0px;
+}
+
+h3 {
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+#sign-up {
+    display: flex;
+    align-self: center;
+}
+
+/*Footer*/
