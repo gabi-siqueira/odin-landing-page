@@ -81,8 +81,7 @@ button {
     max-width: fit-content;
     background-color: #3882F6;
     color: white;
-    box-sizing: border-box; /*Unsure*/
-    box-shadow: pink; /*Y not working*/
+    border-color:#1F2937;
     font-weight: bold;
     border-radius: 5px;
     padding: 3px 16px;
@@ -188,13 +187,13 @@ font-weight: bolder;
 }
 
 .banner-box {
-border: solid 1px greenyellow;
 display: flex;
 justify-content: center;
 gap: 48px;
 background-color: #3882F6;
 color: #E5E7EB;
 padding: 6px 24px;
+border-radius: 5px;
 }
 
 .banner {
@@ -218,6 +217,14 @@ p {
 #sign-up {
     display: flex;
     align-self: center;
+    border-color: white;
 }
 
 /*Footer*/
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    padding: 12px 0px;
+    font-size: 14px;
+}
